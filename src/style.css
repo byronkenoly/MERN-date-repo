@@ -1,0 +1,163 @@
+body {
+  background: whitesmoke;
+  color: black;
+  line-height: 1.35;
+  margin: 0;
+  padding: 0;
+}
+
+body, button, input {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h2 {
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div {
+  display: block;
+}
+
+.globalContainer {
+  padding-top: 72px;
+}
+
+.mainContainer {
+  /*display: flex;
+  align-items: center;*/
+  box-sizing: border-box;
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.headerDiv {
+  display: inline-block;/**/
+  box-sizing: border-box;
+  width: 580px;
+  padding-right: 32px;
+  vertical-align: top;
+}
+
+.logoHeader {
+  font-size: 2.5rem;
+  color: red;
+  letter-spacing: 0.5rem;
+  padding: 112px 0 16px;
+  margin: 0;
+}
+
+.briefDescription {
+  display: inline-block;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 32px;
+  width: 500px;
+  padding-bottom: 20px;
+}
+
+.mainDiv {
+  display: inline-block;
+  width: 396px;
+  height: 456px;
+}
+
+.signupLoginDiv {
+  padding: 10px 0 24px 0;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  width: 396px;
+  text-align: center;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+.emailPass {
+  display: inline-block;
+  width: 364px;
+  margin: auto;
+  padding: 6px 0;
+}
+
+.userCred {
+  border-radius: 6px;
+  margin: 0;
+  padding: 14px 16px;
+  width: 330px;
+  border: 1px solid #dddfe2;
+  height: 22px;
+}
+
+.inputText {
+  font-size: 16px;
+}
+
+.loginDiv {
+  padding-top: 6px;
+}
+
+.loginBtn {
+  background-color: red;
+  box-sizing: content-box;
+  border: none;
+  border-radius: 6px;
+  padding: 0 16px;
+  line-height: 48px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 332px;
+  cursor: pointer;
+  color: white;
+}
+
+.forget {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.separator {
+  display: flex;
+  /*align-items: center;*/
+  border-bottom: 1px solid #dadde1;
+  margin: 20px 16px;
+  text-align: center;
+}
+
+.createDiv {
+  padding-top: 6px;
+}
+
+.createAcc {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0 16px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+.createAcc:hover {
+  text-decoration: none;
+}
