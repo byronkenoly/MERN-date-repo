@@ -1,0 +1,90 @@
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#root {
+    /*height: 100vh;*/
+}
+
+.mainDiv {
+    box-sizing: border-box;
+    width: 600px;
+    /*height: 400px;*/
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+
+.mainContainer {
+    border: 0;
+    padding-top: 48px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    /*background-color: whitesmoke;*/
+    height: 100vh;
+}
+
+.mainContent {
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+#picArea {
+    width: 348px;
+    height: 348px;
+    margin: 0 auto;
+}
+
+#details {
+    margin: 8px auto 0;
+    width: 348px;
+    height: 96px;
+}
+
+.decide {
+    width: 348px;
+    margin: 0 auto;
+}
+
+.checkX {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.btnList {
+    margin: auto
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    border-radius: 50%;
+
+}
+
+#check {
+    /*height: 3rem;
+    width:*/
+}
+
+#check svg {
+    height: 1.5rem;
+}
+
+#X {
+    /*height: 3rem;
+    width:*/
+}
+
+#X svg {
+    height: 1.5rem
+}
