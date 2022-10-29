@@ -6,9 +6,19 @@ body {
     height: 100vh;
 }
 
-#root {
-    /*height: 100vh;*/
+/*#root {
+    height: 100vh;
 }
+
+#X {
+    height: 3rem;
+    width:
+}
+
+#check {
+    height: 3rem;
+    width:
+}*/
 
 .mainDiv {
     box-sizing: border-box;
@@ -71,18 +81,8 @@ body {
 
 }
 
-#check {
-    /*height: 3rem;
-    width:*/
-}
-
 #check svg {
     height: 1.5rem;
-}
-
-#X {
-    /*height: 3rem;
-    width:*/
 }
 
 #X svg {

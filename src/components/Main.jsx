@@ -1,5 +1,5 @@
 import './main.css';
-import Navbar from './navbar';
+import Navbar from './Navbar';
 
 function Main(){
     return(
