@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Main from './main.jsx'
+import Main from './components/Main.jsx'
 //import App from './App';
 //import {variable, Menu} from './test'
 
