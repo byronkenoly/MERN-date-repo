@@ -1,4 +1,4 @@
-import app from './xpress';
+const app = require('./xpress');
 
 const path = require('path');
 const mongoose = require('mongoose');
@@ -14,7 +14,7 @@ const db = mongoose.connection;
 db.on('error', console.error.bind(console, "MongoDB connection error:"));
 
 app.get('/', (req, res) => {
-    res.json({
+    res.status(200).json({
         "user": ["byron", "nodemon"]
     })
 });

@@ -1,0 +1,92 @@
+body {
+    background: whitesmoke;
+    color: black;
+    line-height: 1.35;
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    box-sizing: border-box;
+}
+
+body, button, input {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.sign-up-container {
+    max-width: 500px;
+    padding-top: 20px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: white;
+    padding: 20px 0 32px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.loginBruh {
+    padding: 0 0 12px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.separateLine {
+    display: flex;
+    margin: 2px 16px;
+    text-align: center;
+    border-bottom: 1px solid #dadde1;
+}
+
+.signupBruh {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 12px;
+    padding: 20px 0 10px;
+}
+
+.formDiv {
+    text-align: center;
+}
+
+.sign-up-form {
+    display: inline-block;
+    width: 364px;
+    margin: auto;
+    padding: 6px 0;
+}
+
+.inputTxt {
+    font-size: 16px;
+}
+
+.user-details {
+    margin: 0;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    height: 22px;
+    border-radius: 6px;
+}
+
+.signupDiv {
+    padding-top: 6px;
+}
+
+.signupBtn {
+    background-color: red;
+    box-sizing: content-box;
+    border: none;
+    border-radius: 6px;
+    padding: 0 16px;
+    line-height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 332px;
+    cursor: pointer;
+    color: white;
+}
