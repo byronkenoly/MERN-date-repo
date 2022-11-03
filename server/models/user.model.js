@@ -27,12 +27,12 @@ const UserSchema = new mongoose.Schema({
 
 UserSchema.methods = {
     // authenticate: verifies sign in attempts
-    authenticate: (plainText) => {
+    authenticate: function (plainText) {
         return this.encryptPassword(plainText) === this.hashed_password;
     },
 
     // encryptPassword: generates encrypted hash from plain text password
-    encryptPassword: (password) => {
+    encryptPassword: function (password) {
         if (!password)
         {
             return '';
@@ -45,14 +45,14 @@ UserSchema.methods = {
     },
 
     // generates a unique and random salt value using the current timestamp and Math.random()
-    makeSalt: () => {
+    makeSalt: function () {
         return Math.round((new Date().valueOf() * Math.random())) + ''
     }
 }
 
 // password string provided by user isn't stored directly in user document
 // it is handled as a virtual field
-UserSchema.virtual('password').set((password) => {
+UserSchema.virtual('password').set( function (password) {
     this._password = password;
     this.salt = this.makeSalt();
     this.hashed_password = this.encryptPassword(password);
