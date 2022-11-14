@@ -1,12 +1,15 @@
 import './main.css';
 import Navbar from './Navbar';
+import ProfileCard from './ProfileCard';
 
 function Main(){
     return(
         <div className="mainDiv">
             <Navbar />
             <div className="mainContainer">
-                <div className="mainContent" id="picArea"></div>
+                <div className="mainContent" id="picArea">
+                    <ProfileCard />
+                </div>
                 <div className="mainContent" id="details"></div>
                 <div className="decide">
                     <ul className="checkX">
