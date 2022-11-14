@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Main from './components/Main.jsx'
-import App from './components/App.jsx';
+import App from './components/App.js';
 //import {variable, Menu} from './test'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

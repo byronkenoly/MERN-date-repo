@@ -34,7 +34,7 @@ const list = async (req, res) => {
          * 
          * select specifies which document fields to be included
          */
-        let users = await User.find().select('name email updated created');
+        let users = await User.find().select('first_name last_name email birthday updated created');
 
         //returns  list of users as json objects in an array to requesting client
         res.json(users);
